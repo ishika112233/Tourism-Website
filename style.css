@@ -1,0 +1,222 @@
+.navigation {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar-right {
+  float: right;
+  padding-right: 10%;
+  padding-top: 20px;
+}
+
+.navbar-right a {
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  font-family: Bradley Hand;
+  font-weight: 900;
+}
+
+.navbar-right a:hover {
+  text-decoration: underline;
+}
+
+
+.navbar-logo {
+  padding-left: 10%;
+  font-family: Bradley Hand;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.video-container {
+  z-index: -100;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#video-bg {
+  width: 100%;
+}
+
+.bihar_logo {
+  padding-left: 50px;
+  width: 9%;
+  height: 9%;
+}
+
+.portfolio-section {
+  margin-top: 50%;
+}
+
+.tagline-left {
+  float: left;
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
+  font-family: Bradley Hand;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.tagline-below {
+
+  text-align: left;
+  font-family: Bradley Hand;
+  font-size: 30px;
+  color: gray;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 20px;
+  padding: 20px;
+  position: relative;
+}
+
+.photo {
+  max-width: 25%;
+  padding: 0 10px;
+  height: 240px;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.photo img:hover {
+  opacity: 0.1;
+  box-shadow: 12px 12px 2px 1px rgb(1, 1, 20);
+}
+
+.firstimage {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.photo:hover .image {
+  opacity: 0.3;
+}
+
+.photo:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: transparent;
+  color: black;
+  font-size: 28px;
+  padding: 16px 32px;
+  font-family: Bradley Hand;
+}
+
+.photo {
+  position: relative;
+  width: 50%;
+}
+
+.carousel-image {
+  height: 500px;
+  width: 250px;
+  border-radius: 20px;
+}
+
+.carousel-caption {
+  color: black;
+  font-size: 45px;
+  font-family: Bradley Hand;
+}
+
+.carousel-inner {
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  box-shadow: rgb(253, 6, 6) 0px 5px 15px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #e05e89;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-envelope {
+  background: rgba(79, 78, 80, 0.623);
+  color: white;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 70px;
+  left: 50px;
+  font-family: Bradley Hand;
+  font-size: 30px;
+  font-weight: bold;
+}
